@@ -4,3 +4,4 @@ os # Genaral package
 smtplib # Genaral package
 time # Genaral package
 python-dotenv # Local package
+json # General Package

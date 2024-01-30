@@ -8,7 +8,8 @@ Timeout can be adjusted.
 
 ## Functionalities
 
-- Sends Multiple Mails to One Recipient.
+- Messages are read from the `messages.json` file
+- Sends Mails to Requested Recipient else falls to default Recipient.
 - Sends the mail one after the other in respect to the time out set.
 - Kills the system when all is sent.
   
@@ -33,6 +34,19 @@ Create `.env` file in the directory and populate with data similar to
     PORT=587
     EMAIL=**YOUR_EMAIL**
     PASSWORD=**GOOGLE_MAIL_APP_PASSWORD**
+    RECIPIENT=**RECIPIENT_EMAIL**
+```
+
+Populate your `messages.json` file with required information. If is recipient the bot send the mail to the given general mail in the `.env`
+
+```json
+    [
+        {
+            "subject": "YOUR_MAIL_SUBJECT",
+            "body": "YOUR_MAIL_BODY",
+            "recipient": "SPECIFIC_MAIL OR CAN_BE_EMPTY"
+        },
+    ]
 ```
 
 Run the program

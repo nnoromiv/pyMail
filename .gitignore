@@ -1,3 +1,5 @@
 # Exclude my environment file
 
 .env
+
+test.py

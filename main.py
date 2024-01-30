@@ -2,6 +2,7 @@ import os
 import smtplib
 import time
 from dotenv import load_dotenv
+import json
 
 class Mail:
     
@@ -46,25 +47,24 @@ class Mail:
         
     # Handles Mail Sending
     def handle_mail(self) -> str:
+        # Call Recipient Email from the Environment
+        recipient = os.getenv("RECIPIENT")
+        
         # Message Array
-        messages = [
-            {
-                "subject": "General",
-                "body": "Nnorom"
-            },
-            {
-                "subject": "Special",
-                "body": "Christian"
-            }
-        ] 
+        with open('messages.json', 'r') as file:
+            messages = json.load(file)   
         
         # Who receives the mail
-        recipient_email = "nnorom.peace44@gmail.com"
+        recipient_email = recipient
         
         # Loops through the array messages 
         for message in messages:
-            # Sends Each Message
-            self.connect_smtp(message["subject"], message["body"], recipient_email)
+            if message["recipient"] == "":
+                # Sends Each Message to default recipient
+                self.connect_smtp(message["subject"], message["body"], recipient_email)
+            else:
+                self.connect_smtp(message["subject"], message["body"], message["recipient"])
+                
             # Sets a timeout after one message sends
             time.sleep(10)
     

@@ -1,7 +1,7 @@
 # Python Auto Send Mail
 
 - Author: **NNOROM CHRISTIAN**
-- Github: **["NnoromIV"](https://github.com/nnoromiv)**
+- Github: **[NNOROMIV](https://github.com/nnoromiv)**
 
 This is a google integrated mail sender, The bot uses google App Password connected to users account to send mails with a timeout of 3 minutes.
 Timeout can be adjusted.
@@ -47,4 +47,4 @@ You can make pull request to the system.
 
 ## License
 
-This program adopts the MIT License
+This program adopts the MIT [License](./LICENSE)

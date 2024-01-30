@@ -21,7 +21,7 @@ class Mail:
                 print("Started Program... 🦌🦌")
                 self.handle_mail()
             else:
-                print(f"You entered: {user_input}")
+                print(f"{user_input} Not a recognized command try 'q' or 's' \n\n")
                    
     # Connects the Server 
     def connect_smtp(self, subject, message, to):
@@ -78,17 +78,21 @@ class Mail:
         recipient_email = recipient
         
         # Loops through the array messages 
-        for message in messages:
+        for index, message in enumerate(messages):
             if message["recipient"] == "":
                 # Sends Each Message to default recipient
                 self.connect_smtp(message["subject"], message["body"], recipient_email)
+                print(f"Message {index + 1} Sent.. ✅ \n Going to sleep... 😴💤 \n Building for Message {index + 2}... 👷‍♂️👷")
+                print(f"Use 'CTRL + c' to stop program. \n\n")
             else:
                 self.connect_smtp(message["subject"], message["body"], message["recipient"])
+                print(f"Message {index + 1} Sent.. ✅ \n Going to sleep... 😴💤 \n Building for Message {index + 2}... 👷‍♂️👷")
+                print(f"Use 'CTRL + c' to stop program. \n\n")
                 
             # Sets a timeout after one message sends
             time.sleep(180)
     
-        print("Successfully Sent 💯💯")   
+        print("Successfully Sent All 💯💯")   
         
         
 if __name__ == "__main__":

@@ -1,36 +1,6 @@
 [
     {
         "subject": "API Documentation",
-        "body": "What programming languages does your API support?",
-        "recipient": ""
-    },
-    {
-        "subject": "API Documentation",
-        "body": "Do you provide SDKs for easier integration?",
-        "recipient": ""
-    },
-    {
-        "subject": "API Documentation",
-        "body": "Are there any sample codes or tutorials available for API Documentation?",
-        "recipient": ""
-    },
-    {
-        "subject": "API Documentation",
-        "body": "How often is the API updated, and how are developers informed about changes?",
-        "recipient": ""
-    },
-    {
-        "subject": "API Documentation",
-        "body": "Can I test API transactions in a sandbox environment before going live?",
-        "recipient": ""
-    },
-    {
-        "subject": "API Documentation",
-        "body": "Is there a dedicated developer support team?",
-        "recipient": ""
-    },
-    {
-        "subject": "API Documentation",
         "body": "Are there any rate limits on API requests?",
         "recipient": ""
     },

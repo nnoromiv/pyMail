@@ -27,6 +27,12 @@ class Mail:
         email = os.getenv("EMAIL")
         password=os.getenv("PASSWORD")
         
+        # Sender Name for Message
+        sender_name = os.getenv("SENDER_NAME")
+        
+        # Carbon Copy Email address
+        cc_email = os.getenv("CARBON_COPY") 
+        
         # SMTP Server Configuration 
         smtp_server = server
         smtp_port = port
@@ -34,7 +40,11 @@ class Mail:
         sender_password = password
         
         # Composed Mail
-        mail = f"Subject: {self.subject}\n\n{self.message}"
+        mail = f"Subject: {self.subject}\n\n"\
+                f"Dear sir/ma,\n\n"\
+                f"{self.message}\n\n"\
+                f"Regards, {sender_name}"
+
         
         # Connect to the Server
         with smtplib.SMTP(smtp_server,smtp_port) as server:
@@ -42,7 +52,7 @@ class Mail:
             server.starttls()
             server.login(sender_email,sender_password)
             
-            server.sendmail(sender_email, self.to, mail)
+            server.sendmail(sender_email, [self.to, cc_email], mail)
         
         
     # Handles Mail Sending
@@ -66,7 +76,7 @@ class Mail:
                 self.connect_smtp(message["subject"], message["body"], message["recipient"])
                 
             # Sets a timeout after one message sends
-            time.sleep(10)
+            time.sleep(180)
     
         print("Successful")   
         

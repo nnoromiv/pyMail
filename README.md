@@ -35,6 +35,8 @@ Create `.env` file in the directory and populate with data similar to
     EMAIL=**YOUR_EMAIL**
     PASSWORD=**GOOGLE_MAIL_APP_PASSWORD**
     RECIPIENT=**RECIPIENT_EMAIL**
+    SENDER_NAME=**YOUR_NAME**
+    CARBON_COPY=**SPECIFIC_MAIL_TO_COPY_TO OR CAN_BE_EMPTY**
 ```
 
 Populate your `messages.json` file with required information. If is recipient the bot send the mail to the given general mail in the `.env`

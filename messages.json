@@ -1,12 +1,77 @@
 [
     {
-        "subject": "General",
-        "body": "Nnorom",
+        "subject": "General Questions",
+        "body": "What features does your payment gateway system offer?",
         "recipient": ""
     },
     {
-        "subject": "Special",
-        "body": "Christian",
-        "recipient": "nnorom.peace44@gmail.com"
+        "subject": "General Questions",
+        "body": "How secure is the payment gateway?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "Can I customize the user interface of the payment gateway?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "What types of businesses is your payment gateway suitable for?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "Are there any setup fees for using your payment gateway?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "Do you offer a trial period for testing the payment gateway?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "What currencies does the payment gateway support?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "Is there a limit on the number of transactions I can process?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "What are the transaction fees associated with the payment gateway?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "Can I integrate your payment gateway with my existing website?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "Is there a mobile app available for managing payments?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "How does your payment gateway handle refunds?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "What level of customer support is provided for technical issues?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "Can I use your payment gateway for international transactions?",
+        "recipient": ""
+    },
+    {
+        "subject": "General Questions",
+        "body": "Is there a minimum transaction amount for using the payment gateway?",
+        "recipient": ""
     }
 ]

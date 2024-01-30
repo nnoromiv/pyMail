@@ -1,77 +1,72 @@
 [
     {
-        "subject": "General Questions",
-        "body": "What features does your payment gateway system offer?",
+        "subject": "API Documentation",
+        "body": "What programming languages does your API support?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "How secure is the payment gateway?",
+        "subject": "API Documentation",
+        "body": "Do you provide SDKs for easier integration?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "Can I customize the user interface of the payment gateway?",
+        "subject": "API Documentation",
+        "body": "Are there any sample codes or tutorials available for API Documentation?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "What types of businesses is your payment gateway suitable for?",
+        "subject": "API Documentation",
+        "body": "How often is the API updated, and how are developers informed about changes?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "Are there any setup fees for using your payment gateway?",
+        "subject": "API Documentation",
+        "body": "Can I test API transactions in a sandbox environment before going live?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "Do you offer a trial period for testing the payment gateway?",
+        "subject": "API Documentation",
+        "body": "Is there a dedicated developer support team?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "What currencies does the payment gateway support?",
+        "subject": "API Documentation",
+        "body": "Are there any rate limits on API requests?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "Is there a limit on the number of transactions I can process?",
+        "subject": "API Documentation",
+        "body": "Can I set up webhooks for real-time updates on transactions?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "What are the transaction fees associated with the payment gateway?",
+        "subject": "API Documentation",
+        "body": "What authentication methods does the API use?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "Can I integrate your payment gateway with my existing website?",
+        "subject": "API Documentation",
+        "body": "Does the API support recurring payments or subscriptions?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "Is there a mobile app available for managing payments?",
+        "subject": "API Documentation",
+        "body": "Can I customize error messages returned by the API?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "How does your payment gateway handle refunds?",
+        "subject": "API Documentation",
+        "body": "Is there support for web and mobile API Documentation?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "What level of customer support is provided for technical issues?",
+        "subject": "API Documentation",
+        "body": "How is data security maintained during API transactions?",
         "recipient": ""
     },
     {
-        "subject": "General Questions",
-        "body": "Can I use your payment gateway for international transactions?",
-        "recipient": ""
-    },
-    {
-        "subject": "General Questions",
-        "body": "Is there a minimum transaction amount for using the payment gateway?",
+        "subject": "API Documentation",
+        "body": "What type of encryption is used for API communication?",
         "recipient": ""
     }
 ]

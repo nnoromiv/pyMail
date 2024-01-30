@@ -10,9 +10,19 @@ class Mail:
     load_dotenv()
     
     # Initialize the Class call
-    def __init__(self) -> None:        
-        self.handle_mail()
-        
+    def __init__(self) -> None:
+        while True:
+            user_input = input("Running Program.... 🏃‍♂️🏃‍♂️🏃‍♂️ \n Press s to START: \n Press q to QUIT: \n\n ")
+            
+            if user_input.lower() == 'q':
+                print("Quitting Program... 👋")
+                break
+            elif user_input.lower() == 's':
+                print("Started Program... 🦌🦌")
+                self.handle_mail()
+            else:
+                print(f"You entered: {user_input}")
+                   
     # Connects the Server 
     def connect_smtp(self, subject, message, to):
         
@@ -78,7 +88,7 @@ class Mail:
             # Sets a timeout after one message sends
             time.sleep(180)
     
-        print("Successful")   
+        print("Successfully Sent 💯💯")   
         
         
 if __name__ == "__main__":
